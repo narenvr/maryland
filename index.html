@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Visualize</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<style>
+	.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#states {
+  fill: #aaa;
+}
+
+#states .active {
+  fill: orange;
+}
+
+#state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+/*
+.states {
+	fill: #e5e5e5;
+	stroke: #fff;
+	stroke-width:2px;
+}
+.cities {
+	fill: blue;
+	opacity:0.7;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.q0-9 { fill:rgb(222,235,247); }
+.q1-9 { fill:rgb(198,219,239); }
+.q2-9 { fill:rgb(158,202,225); }
+.q3-9 { fill:rgb(107,174,214); }
+.q4-9 { fill:rgb(66,146,198); }
+.nidhi{ fill:black; }*/
+	
+</style>
+</head>
+<body>
+	<input type="file" id="input_file" class="hiddenfile" />
+	<div id="map"></div>
+	<div id="chart"></div>
+<!-- <div class="hiddenfile">
+	<input type="file" id="input_file"/>
+	<div class="graphcontainer">Parser Output:</div> 
+	
+	</div>-->
+	<!-- div id="map"></div> -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>    
+	<script type="text/javascript" src="js/papaparse.min.js"></script>    
+	<script type="text/javascript" src="js/d3.min.js"></script>   
+	<script type="text/javascript" src="js/topojson.v1.min.js"></script>
+	<script type="text/javascript" src="js/queue.v1.min.js"></script>
+	 <script type="text/javascript" src="js/parseDataFile.js"></script> 
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js"></script> -->
+	<!-- <script type="text/javascript" src="js/google-map.js"></script>   -->
+	<!-- Google Map -->
+	<!-- <script type="text/javascript" src="js/google-map.js"></script>  
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+        <script type="text/javascript" src="js/parseDataFile.js"></script>    -->
+	<!-- <script type="text/javascript" src="js/app.js"></script>     -->
+	<script type="text/javascript" src="js/parseDataFile.js"></script>
+<script type="text/javascript">
+
+//$("#input_file").css('opacity','0');
+//$("#input_file").trigger('click');
+
+
+</script>
+</body>
+</html>
