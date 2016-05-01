@@ -26,7 +26,7 @@ svg.append("rect")
 
 
    g = svg.append("g");
-  d3.json("data/maryland-counties.geojson", function(error, states) {
+  d3.json("https://raw.githubusercontent.com/narenvr/maryland/master/data/maryland-counties.geojson", function(error, states) {
     if (error) throw error;
     g.append("g")
       .attr("id", "states").selectAll("path")
